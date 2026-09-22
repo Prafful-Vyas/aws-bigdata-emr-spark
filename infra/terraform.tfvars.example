@@ -1,0 +1,9 @@
+aws_region           = "us-east-1"
+project_name         = "reviews-trend"
+bucket_name          = "changeme-reviews-trend-dea-<unique-suffix>"
+review_categories    = ["Electronics", "Books"]
+core_instance_count  = 2
+task_instance_count  = 2
+task_spot_max_price  = "0.20"
+keep_cluster_alive   = false
+alert_email          = "you@example.com"
